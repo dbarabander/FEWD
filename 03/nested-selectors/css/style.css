@@ -1,0 +1,28 @@
+body {
+	font-family: Georgia, 'Times New Roman', serif;
+	color: grey;
+	line-height: 1.4;
+	font-size: 14px;
+}
+
+p em {
+	color: #000;
+
+}
+
+blockquote {
+	margin-left: 0;
+	padding-left: 20px;
+	border-left: 10px solid grey;
+} 
+
+blockquote p{
+	font-family: helvetica, arial, sans-serif;
+	width: 300px;
+}/*width on everything else is still 100%*/
+
+blockquote p em {
+	font-weight: bold;
+	color: red;
+	font-style: normal;
+}

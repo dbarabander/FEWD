@@ -1,0 +1,100 @@
+
+<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="Your description goes here">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Blank Template</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+
+<body>
+	<div id= "container">
+		<h1>Course Application</h1>
+			<form>
+					<ul id="cinfo">
+						<li><h2>Your Contact Info</h2></li>
+						<li>
+							<label for="first_name">Your Name</label>
+							<input type="text" name= "yourname" id="first_name" placeholder="Joe">
+						</li>
+						<li>
+							<input type="text" name= "lastname" id="last_name" placeholder="Enriquez">
+						</li>
+
+						<li>
+							<label for = "phone_one">Phone Number</label>
+							<input type="text" name="phone_one" id="phone_one">
+							<span>-</span>
+							<input type = "text" name="phone_two" id="phone_two">
+							<span>-</span>
+							<input type = "text" name = "phone_three" id="phone_three">					
+						</li>
+					</ul>
+
+					<ul id="address"> 
+
+						<li id="address">
+							<label for = "street_address">Address</label>
+							<input type="text" name="street_address" id="street_address" placeholder="Street Address">
+							<input type="text" name="address_line_2" id="street_address" placeholder="Address Line 2">
+							<input type="text" name="city" id="city" placeholder="City">
+							<input type="text" name="state" id="state" placeholder="State">
+							<input type="text" name="postal_code" id="postal_code" placeholder = "Postal Code">
+						</li>
+
+					</ul>
+
+					<ul>
+						<li><h2>Skills & Interests</h2></li>
+						<li>
+							<label for ="course">Course</label>
+							<select>
+								<option value="">Select One</option>
+								<optgroup label="Web Development">
+									<option value="Front-end">Front-end</option>
+									<option value ="Back-end">Back-end</option>
+								</optgroup>
+
+								<optgroup label="Design">
+									<option value = "Visual Deisgn">Visual Design</option>
+									<option value = "User Experience">User Experience</option>
+								</optgroup>
+							</select>
+
+						</li>
+						<li>
+
+							<label for="past_experience">Past Experience
+							</label>
+							<textarea name="past_experience" id="past_experience">
+							</textarea>
+						</li>
+					</ul>
+
+					<ul>
+
+					<li><h2>Anything Else?</h2></li>
+					<li>
+						<label for = "referral">Referred By?</label>
+						<select name="referral" id="referral">
+							<option value="None">None</option>
+							<option value ="Friend">Friend</option>
+							<option value = "Instructor">Instructor</option>
+							<option value="Online">Online</option>
+
+						</select>
+					</li>
+						<label for="comments">Comments</label>
+						<textarea name="comments" id="comments"></textarea>
+					</li>
+
+				</ul>
+			</form>
+	</div>
+</body>
+

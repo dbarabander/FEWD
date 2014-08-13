@@ -1,0 +1,55 @@
+header{
+     height: 60px;
+     background-color: black;
+}
+
+li{
+     display: inline-block;
+     padding-top: 30px;
+     padding-right: 20px;
+}
+
+ul li a { 
+     text-decoration: none; 
+     color: white;
+}
+
+#midbox{
+     width: 450px;
+     height: 450px;
+     margin: 0 auto;
+     margin-top: 50px;
+
+}
+
+button{
+     background-color: RGBA(41, 91, 125, 1);
+     border:2px solid RGBA(41, 91, 125, 1);
+     border-radius: 4px;
+     width: 50px;
+     height: 30px;
+     text-align: center;
+     color: white;
+}
+
+#buttons{
+     text-align: center;
+     margin-top: 20px;
+     display: inline-block;
+}
+
+img{
+     max-width: 100%;
+     max-height: 100%;
+}
+
+#bottombar{
+     
+     width: auto;
+     text-align: center;
+}
+
+select{
+     display: inline-block;
+
+}

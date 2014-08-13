@@ -1,0 +1,38 @@
+body{
+  font-size: 14px;
+  margin: 3em;
+  color: #000;
+  line-height: 1.5;
+}
+
+h1 {
+	background-color: red;
+	padding: 10px 20px;
+	border: 5px solid black;
+}
+
+p{
+	background-color: blue;
+	color: white;
+	padding: 5px;
+	border: 5px solid black;
+
+}
+
+code{
+	background-color: white;
+	color: black;
+	padding: 2px;
+	border: 1px solid black;
+
+}
+
+h2{
+	background-color: #38AE46;
+	color: white;
+	padding: 5px;
+	box-shadow: 50px 10px 5px blue;
+	border-radius:50px;
+
+}
+

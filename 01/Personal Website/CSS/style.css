@@ -1,0 +1,265 @@
+
+
+body{
+	width: 100%;
+	margin: auto;
+}
+
+header li {
+	width: auto;
+	list-style: none;
+	display: inline-block;
+	float: right;
+	padding:14px 10px 14px 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #0B0A08;
+}
+
+span{
+	float: right;
+}
+
+.home { 
+  background: url(../Images/bklyn.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+ /* -webkit-filter: blur(1px);
+  -moz-filter: blur(1px);
+  -o-filter: blur(1px);
+  -ms-filter: blur(1px);
+  filter: blur(1px);*/
+}
+
+
+footer {
+  color: #CFCFCF;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 50px;
+  padding: 0 30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 800px;
+}
+
+main h3:after{
+	content: "welcome.";
+
+}
+
+p{
+	color: #FFFFFF;
+	vertical-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+main h3 {
+	display: inline;
+	position: relative;
+	font: 200px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+/*	color: RGBA(129, 129, 129, .5);*/
+	color: rgba(0,0,255,0.5); 
+/*	color: rgba(131,113,161,0.9);*/
+}
+
+main h3:after {
+	content: "welcome.";
+	position: absolute; left: 12px; top: 10px;
+
+/*	color: RGBA(255, 118, 0, .5);*/
+	color: rgba(255,0,0,0.5);   
+/*	color: rgba(255,255,255,0.9);*/
+}
+
+#centerrectangle{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.box{
+	width: 250px;
+	height: 150px;
+	background-color: RGBA(238, 232, 232, 1);
+	display: inline-block;
+	margin-right: 20px;
+	margin-top: 40px;
+}
+
+#centered li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	border-left: 1px solid #0B0A08;
+	font-size: 150%;
+	margin-top: 1px;
+}
+
+#centered ul{
+
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+
+}
+
+#centered{
+	clear: both;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+
+#centered li:first-child{
+	border-left: none;
+	margin-right: -3px;
+
+}
+
+#centered li:last-child{
+}
+
+#professionalexp{
+	background-color: #99FFCC;
+
+}
+
+.title{
+	font-size:105%;
+	font-weight: bold;
+}
+
+.normal{
+	font-weight: normal;
+}
+
+
+.company{
+	font-size: 120%;
+
+}
+
+.division{
+	width: 100%;
+	margin: auto;
+	height: 722px;
+	padding-top: 10px;
+	/*border: 1px solid black;*/
+	position: relative;
+}
+
+#me{
+	background: url(../Images/meamel.jpg) no-repeat 50% 30% fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+}
+
+#nyse{
+	background: url(../Images/nyse.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+}
+
+#bloomberg{
+background: url(../Images/bloomberg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+}
+
+#general{
+background: url(../Images/gasignl.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+}
+
+#colgate{
+background: url(../Images/colgatefall.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+}
+
+#manchester{
+background: url(../Images/manch.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-style:  Helvetica, Sans-Serif;
+}
+
+.inbox p{
+	text-align: center;
+	width: 180px;
+	font-size: 150%;
+	padding: 20px 0 20px 0;
+	margin-top: 80px;
+	
+}
+.blue p{
+	background-color: rgba(0,0,255,0.5); 
+}
+
+.red p{
+background-color: rgba(255,0,0,.5); 
+}
+
+.coversect h2{
+	text-align: center;
+	width: 100%;
+	font-size: 150%;
+	padding: 20px 0 20px 0;
+	background-color: RGBA(255, 255, 255, .8);
+}
+
+.coversect{
+position: absolute;
+bottom: 0;
+width: 100%;
+margin-bottom: -22px;
+}
+
+.coversectmid{
+position: absolute;
+width: 100%;
+}
+
+/*.coversectmid h2{
+	text-align: center;
+	width: 100%;
+	font-size: 150%;
+	padding: 40px 0 300px 0;
+	background-color: RGBA(255, 255, 255, 1);
+}*/
+

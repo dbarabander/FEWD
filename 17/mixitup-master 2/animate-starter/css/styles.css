@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*
+
+
+*/
+
+body{
+  font-family: helvetica, arial, sans-serif;
+  font-size: .625em;
+  background:;
+}
+
+.container{
+  margin: 0 auto;
+}
+
+#content{
+  width:960px;
+  margin:100px auto;
+}
+
+.portfolio-item{
+  position:relative;
+  width:250px;
+  height:250px;
+  /** Animate Up**/
+  overflow:hidden;
+}
+.portfolio-item div{
+  width:210px;
+  height:210px;
+  background-color:#000;
+  background-color:rgba(0,0,0, .8);
+  position:absolute;
+  top:0;left:0;
+  color:#fff;
+  padding:20px;
+  display:none;
+
+  /** Animate Up**/
+  display:block;
+  top:250px;
+  -webkit-transition: top 1s; /* For Safari 3.1 to 6.0 */
+  -moz-transition: top 1s;
+  transition: top 1s;
+
+}
+
+.portfolio-item div.show{
+  top:160px;
+}
+
+/* ~~~~~ Typography ~~~~~ */
+
+a {text-decoration:none; color: ;}
+a:hover {color: ;}
+a.selected{color:;}
+h1 {font-size: 30px; margin-bottom:40px; font-weight:bold;}
+h2 {font-size: 18px; margin-bottom: 10px; font-weight:bold;}
+h3 {font-size: 18px; font-weight: bold; color:  ; margin-bottom:10px;}
+p {font-size: 14px;line-height: ;margin-bottom:;}
+
+/* UTILITY CLASSES */
+.fl {float: left;}
+.fr {float: right;}
+.cl {clear: left;}
+.cr {clear: right;}
+.clear {clear: both;}
+.tr{text-indent:-9999px;display:block;background-repeat:no-repeat;background-position:top left;}
+em{font-style:italic;}
+strong{font-weight:bold;}

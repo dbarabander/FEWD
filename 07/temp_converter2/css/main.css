@@ -1,0 +1,150 @@
+
+footer {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  overflow: hidden;
+  font-size: 15px;
+  line-height: 50px;
+  padding: 0 30px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-width: 800px;
+}
+
+
+h1 {
+	text-align: center;
+	padding-top: 50px;
+}
+
+#all{
+	text-align: center;
+	margin: 0 auto;
+}
+
+input{
+	margin-top: -10px;
+	width: 150px;
+}
+
+body{
+	background: url(../images/bklyn.jpeg) no-repeat center center fixed; 
+  	background-size: cover;
+  	font-family: 'Oswald', sans-serif;
+}
+
+#error{
+	margin: 0 auto;
+}
+
+.original {
+	background: url(../images/bklyn.jpeg) no-repeat center center fixed; 
+  	background-size: cover;
+  	font-family: 'Oswald', sans-serif;
+}
+.coldpic{
+	background: url(../images/winter.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+  	color: white;
+}
+
+.chillypic{
+	background: url(../images/fall.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+.warm{
+	background: url(../images/spring.jpg) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+.hot{
+	background: url(../images/beach.JPG) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+#right{
+	width: 150px;
+	display: inline-block;
+	padding-left: 22px;
+
+
+}
+
+#left{
+	width: 150px;
+	display: inline-block;
+	padding-right: 22px;
+
+}
+
+#both{
+text-align: center;
+
+}
+
+#error{
+	height: 10px;
+	width: 200px;
+	text-align: center;
+	color: red;
+
+}
+
+#buttonsbox{
+	clear: both;
+	text-align: center;
+
+}
+
+.buttons{
+	   margin-top: 10px;
+       padding: 5px 5px 5px 5px;
+       text-decoration:none;
+       background-color: RGBA(66, 115, 149, .8);
+       border: none;
+       width: 120px;
+       height: 50px;
+       border-radius: 4px;
+       border-bottom: RGBA(66, 115, 149, 1) 4px solid;
+}
+
+#submit:active{
+	   margin-top: 10px;
+       padding: 5px 5px 5px 5px;
+       text-decoration:none;
+       background-color: RGBA(66, 115, 149, 1);
+       border: none;
+       width: 120px;
+       height: 50px;
+       border-radius: 4px;
+       border-bottom: RGBA(66, 115, 149, 1) 4px solid;
+}
+
+
+#submit{
+	display: inline-block;
+	margin-right: 36px;
+}
+#clear{
+	display: inline-block;
+	margin-left: 36px;
+}
+
+#clear:active{
+	   margin-top: 10px;
+       padding: 5px 5px 5px 5px;
+       text-decoration:none;
+       background-color: RGBA(66, 115, 149, 1);
+       border: none;
+       width: 120px;
+       height: 50px;
+       border-radius: 4px;
+       border-bottom: RGBA(66, 115, 149, 1) 4px solid;
+}
+

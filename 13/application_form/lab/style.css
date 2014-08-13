@@ -1,0 +1,40 @@
+body{
+	font-size: 12px;
+}
+
+
+h2{
+
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+li {
+	list-style-type: none;
+}
+
+input,textarea{
+	border-radius: 3px;
+	background-color: lightyellow;
+	border: lightgray 2px solid;
+}
+
+ul{
+	margin-top: 5px;
+	background-color: green;
+}
+
+#cinfo{
+	width: 600px;
+}
+
+#cinfo li{
+	display: inline-block;
+}
+
+#address{
+	width: 600px;
+}
+#address input{
+	width: 90%;
+}
